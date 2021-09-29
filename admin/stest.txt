@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$shopcategr="mall";
+$shoppin="680641"
+$mpin=$shoppin-"1";
+$lot = "50";
+$current= "48";
+$new = "5";
+$now=$current+$new;
+if ($lot <= $now ) {
+  echo "full";
+}
+else {
+echo "space";
+}
+?>
+ 
+</body>
+</html>
+
+
+
+
+<?php
+$shopcategr="mall";
+$shoppin="680641";
+
+$mpin = $shoppin-2;
+$npin= $shoppin+2;
+echo $mpin;
+echo "<br>";
+echo $npin;
+?>
